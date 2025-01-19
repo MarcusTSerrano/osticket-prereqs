@@ -135,59 +135,112 @@ From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/user-attachments/assets/bae3f9b6-8dce-41e7-9f13-a37241a4caa6)
+
 <p>
 From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
   </p>
 Typical Setup
 </p>
+
+![image](https://github.com/user-attachments/assets/71b0822b-a309-4439-80c1-150c9c9dd546)
+
 Launch Configuration Wizard (after install)
 </p>
+
+![image](https://github.com/user-attachments/assets/4f249108-050d-49c0-9125-ba07d1c9efab)
+
 Standard Configuration
 </p>
+
+![image](https://github.com/user-attachments/assets/bcbc57aa-dc9f-4fe6-9a77-16c974180251)
+
 Username: root
 </p>
 Password: root
 </p>
+
+![image](https://github.com/user-attachments/assets/458f07a3-d5ba-4288-99dc-1ba2b884549a)
+
+Finish Installation
+</p>
 <br />
 
+![image](https://github.com/user-attachments/assets/61d905cc-03c6-4f83-b4ce-13181e233d46)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open IIS as an Admin
 </p>
+<br />
+
+![image](https://github.com/user-attachments/assets/4235db7a-b7e1-4d33-8a30-3ba386418c0f)
+
+<p>
+Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/c1e7bc26-a464-4a32-8f8b-ad75126c0c34)
+
+![image](https://github.com/user-attachments/assets/0f7b5be8-f1c4-43a2-8f6d-85b791191857)
+
+<p>
+Reload IIS (Right-click in VM-osTicket Home, Stop and Start the server) ‼️Important to do, Server needed to restart after Regestration‼️
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/e6f8bf0b-0e5d-464e-904d-e0a67f2c57a1)
+![image](https://github.com/user-attachments/assets/6169bcf1-29b3-4cb5-bcc1-7dc2ae6977b1)
+
+<p>
+Install osTicket v1.15.8
+  </p>
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+</p>
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/c1e7bc26-a464-4a32-8f8b-ad75126c0c34)
+
+![image](https://github.com/user-attachments/assets/0f7b5be8-f1c4-43a2-8f6d-85b791191857)
+
+<p>
+Reload IIS (Right-click in VM-osTicket Home, Stop and Start the server) 
+</p>
+<br />
+
+
 <p>
 Lorem ipsum dolor sit amet, 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Lorem ipsum dolor sit amet, 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Lorem ipsum dolor sit amet, 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Lorem ipsum dolor sit amet, 
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lorem ipsum dolor sit amet, 
 </p>
+<br />
+
+
 <p>
 Lorem ipsum dolor sit amet, 
 </p>
