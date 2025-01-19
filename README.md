@@ -96,7 +96,7 @@ Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and un
 <br />
 
 <p>
-<img src="https://i.imgur.com/KWo9NAn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jVfmBer.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
