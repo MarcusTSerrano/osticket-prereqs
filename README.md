@@ -17,11 +17,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- <b>PHP manager for IIS</b> - ensures PHP is correctly configured to run IIS
-- <b>Rewrite module </b> - facilitates URL rewriting and redirect users to URLs
-- <b>VC_redist.x86</b> (redistributable) - osTicket relies on libraries that are part of Microsoft Visual C++ and ensures the program runs smoothly
-- <b>MySQL</b> - for storing data into databases
-- <b>HeidiSQL</b> - interface for accessing MySQL 
+- <b>PHP manager for IIS</b> - Since osTicket is built using PHP, it requires a properly configured PHP environment to function correctly.
+- <b>Rewrite module </b> - helps ensure that osTicket functions smoothly on IIS servers while providing a better user experience and maintaining SEO-friendly and secure URL structures.
+- <b>VC_redist.x86</b> (redistributable) -is essential for ensuring that certain C++-based libraries and extensions needed by osTicket (and PHP extensions) run properly on a Windows server.
+- <b>MySQL</b> - is used in osTicket as the backend database system to store and manage all ticketing data, user information, settings, and logs.
+- <b>HeidiSQL</b> - is an essential interface for anyone managing the backend MySQL database for osTicket.
 
 
 
