@@ -389,86 +389,33 @@ View database
 <p>
 Continue Setting up osTicket in the browser
 </p>
-Name Helpdesk
+-Name Helpdesk
 </p>
-Default email (receives email from customers)
+-Default email (receives email from customers)
 </p>
 Fill in Admin User
 </p>
-Email Addresses needs to be different from Default email
+-Email Addresses needs to be different from Default email
 </p>
-Username : Adminuser
+-Username : Adminuser
 </p>
-Password : Password1
+-Password : Password1
 </p>
 Fill in Database Settings
 </p>
-MySQL Database: osTicket
+-MySQL Database: osTicket
 </p>
-MySQL Username: root
+-MySQL Username: root
 </p>
-MySQL Password: root
+-MySQL Password: root
 </p>
 Click “Install Now!”
 </p>
-
-</p>
-
 <br />
 
+![image](https://github.com/user-attachments/assets/c18b7ee3-36a7-4c22-a46c-3d1d77a7684d)
 
 <p>
-Lorem ipsum dolor sit amet,
+Congratulations, osTicket is up and running!🎉
 </p>
 <br />
-
-
-<p>
-Lorem ipsum dolor sit amet,
-</p>
-<br />
-
-<p>
-Lorem ipsum dolor sit amet,
-</p>
-<br />
-
-
-<p>
-Lorem ipsum dolor sit amet,
-</p>
-<br />
-
-<p>
-Lorem ipsum dolor sit amet,
-</p>
-<br />
-
-
-<p>
-Lorem ipsum dolor sit amet,
-</p>
-<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
