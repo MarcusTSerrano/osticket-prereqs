@@ -206,43 +206,116 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 ![image](https://github.com/user-attachments/assets/0f7b5be8-f1c4-43a2-8f6d-85b791191857)
 
 <p>
-Reload IIS (Right-click in VM-osTicket Home, Stop and Start the server) 
+Reload IIS (Right-click in VM-osTicket Home, Stop and Start the server) ‼️Important to do, Server needs to restart after the installation‼️
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/ad4be1a4-5f0a-43cd-88e9-0c800caab0fb)
+
+<p>
+Go to sites -> Default -> osTicket
+</p>
+On the right, click “Browse *:80”
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/daccd225-1f6a-489b-9f96-3638ff901485)
+
+<p>
+Note that some extensions are not enabled
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/62bf4222-2463-4221-aff1-63f6c8cbcd22)
+
+<p>
+Go back to IIS, sites -> Default -> osTicket
+</p>
+Double-click PHP Manager 
+</p>
+
+![image](https://github.com/user-attachments/assets/4ffd79f1-3fa4-4753-a0db-feeae67e840d)
+
+<p>
+Click “Enable or disable an extension” 
+</p>
+
+![image](https://github.com/user-attachments/assets/b43e7cc2-e7a5-473e-b4b8-a322b44d281e)
+
+Enable: php_imap.dll
+</p>
+
+![image](https://github.com/user-attachments/assets/514b2f15-bb16-4d76-838f-c3a841ca50ea)
+
+Enable: php_intl.dll
+</p>
+
+![image](https://github.com/user-attachments/assets/4cb3339d-0af2-4ccb-95a8-943b8f3b467c)
+
+Enable: php_opcache.dll
+</p>
+
+![image](https://github.com/user-attachments/assets/99510ce3-9b7d-4fb9-8c46-c10fc59f5e04)
+
+<p>
+Refresh the osTicket site in your browser
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/d5c8d0c1-4ca7-4f2c-b3a6-f0c8cb96530f)
+
+<p>
+Observe the changes
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/7e37823d-4e69-4fd5-bebf-72a581708d64)
+
+![image](https://github.com/user-attachments/assets/30379256-6a93-4a0b-81d7-e7a5934ce279)
+
+<p>
+This PC > Windows (C:) > inetpun > wwwroot > osTicket > include > Rename: "ost-sampleconfig.php" to "ost-config.php"
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/2da692bd-d257-4876-8b06-9aad3f8901a4)
+
+<p>
+Right-click "ost-config.php" - select "Properties"
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/1db73958-991d-46e0-a98f-22919dd8a9e8)
+
+<p>
+Under "Security" select "Advanced"
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/f1bb898f-4452-4bbb-b77d-d7963fa630c9)
+
+<p>
+Disable inheritance - Remove All
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/c3659b8c-25b4-4175-9b7c-165212962e42)
+<p>
+Add New Permissions
+</p>
+
+![image](https://github.com/user-attachments/assets/096add8c-55e1-4530-b78c-92292916ad2d)
+
+
+![image](https://github.com/user-attachments/assets/cb2e1f38-cd35-42b6-852b-c43faff489a7)
+
+![image](https://github.com/user-attachments/assets/1f8e6c1c-71f1-497e-af70-24d5ba2bb3d7)
+
+ - Select a Principal - Everyone - Full Control
 </p>
 <br />
 
 
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-<br />
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-<br />
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-<br />
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-<br />
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-<br />
-
-
-<p>
-Lorem ipsum dolor sit amet, 
 </p>
 <br />
 
