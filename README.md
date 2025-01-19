@@ -384,10 +384,36 @@ View database
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/56e54aa0-db68-4675-a55f-edffee9b9e02)
 
 <p>
-Lorem ipsum dolor sit amet,
+Continue Setting up osTicket in the browser
 </p>
+Name Helpdesk
+</p>
+Default email (receives email from customers)
+</p>
+Fill in Admin User
+</p>
+Email Addresses needs to be different from Default email
+</p>
+Username : Adminuser
+</p>
+Password : Password1
+</p>
+Fill in Database Settings
+</p>
+MySQL Database: osTicket
+</p>
+MySQL Username: root
+</p>
+MySQL Password: root
+</p>
+Click “Install Now!”
+</p>
+
+</p>
+
 <br />
 
 
