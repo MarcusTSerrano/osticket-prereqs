@@ -292,7 +292,7 @@ Under "Security" select "Advanced"
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/f1bb898f-4452-4bbb-b77d-d7963fa630c9)
+![image](https://github.com/user-attachments/assets/dd1ffeca-ba98-4f1f-b2ee-9f6ae6d28162)
 
 <p>
 Disable inheritance - Remove All
@@ -300,26 +300,129 @@ Disable inheritance - Remove All
 <br />
 
 ![image](https://github.com/user-attachments/assets/c3659b8c-25b4-4175-9b7c-165212962e42)
+
 <p>
 Add New Permissions
 </p>
 
 ![image](https://github.com/user-attachments/assets/096add8c-55e1-4530-b78c-92292916ad2d)
 
+<p>
+Select a Principal
+</p>
 
 ![image](https://github.com/user-attachments/assets/cb2e1f38-cd35-42b6-852b-c43faff489a7)
 
+<p>
+Everyone
+</p>
+
 ![image](https://github.com/user-attachments/assets/1f8e6c1c-71f1-497e-af70-24d5ba2bb3d7)
 
- - Select a Principal - Everyone - Full Control
+<p>
+Full Control
+</p>
+
+![image](https://github.com/user-attachments/assets/9d3b619d-abff-4253-b55c-863318c1faa3)
+
+<p>
+Apply changes
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/a6193ca7-39ea-4fd6-8d48-a97f7cce78e9)
+
+<p>
+Continue Setting up osTicket in the browser (click Continue)
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/c1b5d778-a73d-4a96-b83f-fd4a30974fef)
+
+<p>
+From the “osTicket-Installation-Files” folder, install HeidiSQL ( No changes necessary )
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/5a6f67a4-f663-4a9a-b303-946adaedecb3)
+
+<p>
+Launch Heidi SQL
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/b7370a77-cf25-4185-b01e-486108b9607b)
+
+<p>
+Create a new session, root/root
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/d74156a5-d67c-4569-83d4-f70f3cbade06)
+
+<p>
+Connect to the session
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/f9c6707b-0f38-4556-a426-e1038a352ca3)
+
+<p>
+Create a database
+</p>
+
+![image](https://github.com/user-attachments/assets/5774a997-afdf-4a90-bd37-ee7846284b70)
+
+<p>
+Name the database “osTicket”
+</p>
+
+![image](https://github.com/user-attachments/assets/9e1b6793-da95-4c04-ad26-a040d48bc975)
+
+<p>
+View database
 </p>
 <br />
 
 
+<p>
+Lorem ipsum dolor sit amet,
 </p>
 <br />
 
 
+<p>
+Lorem ipsum dolor sit amet,
+</p>
+<br />
+
+
+<p>
+Lorem ipsum dolor sit amet,
+</p>
+<br />
+
+<p>
+Lorem ipsum dolor sit amet,
+</p>
+<br />
+
+
+<p>
+Lorem ipsum dolor sit amet,
+</p>
+<br />
+
+<p>
+Lorem ipsum dolor sit amet,
+</p>
+<br />
+
+
+<p>
+Lorem ipsum dolor sit amet,
+</p>
+<br />
 
 
 
